@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "skull_headwear1.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

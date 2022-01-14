@@ -1,0 +1,6 @@
+framework module Pods_NFTGenerator {
+  umbrella header "Pods-NFTGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

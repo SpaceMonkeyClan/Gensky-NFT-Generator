@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "egg monster_horns2.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
