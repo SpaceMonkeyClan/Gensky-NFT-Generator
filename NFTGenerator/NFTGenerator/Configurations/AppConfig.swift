@@ -18,7 +18,7 @@ class AppConfig {
     
     // MARK: - Terms and Privacy
     static let privacyURL: URL = URL(string: "https://space-monkey.online/privacy-policy")!
-    static let termsAndConditionsURL: URL = URL(string: "https://space-monkey.online/privacy-policy")!
+    static let termsAndConditionsURL: URL = URL(string: "https://space-monkey.online/")!
     
     // MARK: - In App Purchases
     static let premiumVersion: String = "NFTGenerator.Premium"

@@ -167,7 +167,7 @@ struct SettingsContentView: View {
     // MARK: - Support & Privacy
     private var PrivacySupportView: some View {
         VStack {
-            SettingsItem(title: "E-Mail us", icon: "envelope.badge") {
+            SettingsItem(title: "E-Mail Me", icon: "envelope.badge") {
                 EmailPresenter.shared.present()
             }
             Color("Text").frame(height: 1).opacity(0.2)
@@ -175,7 +175,7 @@ struct SettingsContentView: View {
                 UIApplication.shared.open(AppConfig.privacyURL, options: [:], completionHandler: nil)
             }
             Color("Text").frame(height: 1).opacity(0.2)
-            SettingsItem(title: "Terms of Use", icon: "doc.text") {
+            SettingsItem(title: "Developer Website", icon: "doc.text") {
                 UIApplication.shared.open(AppConfig.termsAndConditionsURL, options: [:], completionHandler: nil)
             }
         }.padding([.top, .bottom], 5).background(
