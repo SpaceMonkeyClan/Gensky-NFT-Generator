@@ -69,7 +69,7 @@ struct DashboardContentView: View {
         VStack {
             VStack(alignment: .leading) {
                 HStack {
-                    Text("NFT Generator").font(.system(size: 30, weight: .bold))
+                    Text("Gensky Generator").font(.system(size: 30, weight: .bold))
                     Spacer()
                     Button {
                         manager.fullScreenMode = .settings

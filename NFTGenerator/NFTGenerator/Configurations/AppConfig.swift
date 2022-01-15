@@ -25,7 +25,7 @@ class AppConfig {
     static let freeCollections: [DefaultNFTCollection] = [.greenMonster, .hero]
     
     /// Your email for support
-    static let emailSupport = "spacemonkeylabs@gmail.com"
+    static let emailSupport = "rene.b.dena@gmail.com"
     static let yourAppURL: URL = URL(string: "https://apps.apple.com/us/app/apple-store/id375380948")!
     
     // MARK: - NFT Configurations
