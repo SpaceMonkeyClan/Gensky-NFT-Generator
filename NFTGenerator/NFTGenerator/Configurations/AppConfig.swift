@@ -13,19 +13,19 @@ class AppConfig {
     
     /// This is the AdMob Interstitial ad id
     /// Test App ID: ca-app-pub-3940256099942544~1458002511
-    static let adMobAdId: String = "ca-app-pub-3940256099942544/4411468910"
+    static let adMobAdId: String = "ca-app-pub-4998868944035881/7251290161"
     static let adMobFrequency: Int = 2 /// every 2 nft collection previews
     
     // MARK: - Terms and Privacy
-    static let privacyURL: URL = URL(string: "https://yourPrivacyPolicyURL.com/")!
-    static let termsAndConditionsURL: URL = URL(string: "https://yourPrivacyPolicyURL.com/")!
+    static let privacyURL: URL = URL(string: "https://space-monkey.online/privacy-policy")!
+    static let termsAndConditionsURL: URL = URL(string: "https://space-monkey.online/privacy-policy")!
     
     // MARK: - In App Purchases
     static let premiumVersion: String = "NFTGenerator.Premium"
     static let freeCollections: [DefaultNFTCollection] = [.greenMonster, .hero]
     
     /// Your email for support
-    static let emailSupport = "support@apps4world.com"
+    static let emailSupport = "spacemonkeylabs@gmail.com"
     static let yourAppURL: URL = URL(string: "https://apps.apple.com/us/app/apple-store/id375380948")!
     
     // MARK: - NFT Configurations

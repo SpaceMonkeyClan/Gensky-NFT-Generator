@@ -468,7 +468,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NFTGenerator/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "NFT Generator";
+				INFOPLIST_KEY_CFBundleDisplayName = Gensky;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save created NFTs";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.NFTGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.Gensky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -503,7 +503,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NFTGenerator/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "NFT Generator";
+				INFOPLIST_KEY_CFBundleDisplayName = Gensky;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save created NFTs";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -517,7 +517,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.NFTGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.Gensky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
