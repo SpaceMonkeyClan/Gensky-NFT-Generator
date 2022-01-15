@@ -26,7 +26,7 @@ class AppConfig {
     
     /// Your email for support
     static let emailSupport = "rene.b.dena@gmail.com"
-    static let yourAppURL: URL = URL(string: "https://apps.apple.com/us/app/apple-store/id375380948")!
+    static let yourAppURL: URL = URL(string: "https://apps.apple.com/us/app/gensky-nft-generator/id1605272757")!
     
     // MARK: - NFT Configurations
     /// Thumbnail size for each NFT layer. Must be as low as possible and always 1:1 aspect ratio

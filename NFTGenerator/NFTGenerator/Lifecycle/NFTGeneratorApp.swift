@@ -14,6 +14,8 @@ struct NFTGeneratorApp: App {
     
     @StateObject private var manager: DataManager = DataManager()
     
+
+    
     init() {
         PKManager.loadProducts(identifiers: [AppConfig.premiumVersion])
         GADMobileAds.sharedInstance().start(completionHandler: nil)
