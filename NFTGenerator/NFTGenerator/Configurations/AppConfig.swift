@@ -22,7 +22,7 @@ class AppConfig {
     
     // MARK: - In App Purchases
     static let premiumVersion: String = "NFTGenerator.Premium"
-    static let freeCollections: [DefaultNFTCollection] = [.greenMonster, .hero]
+    static let freeCollections: [DefaultNFTCollection] = [.corgi, .fox, .eggMonster, .greenMonster, .hero, .skull]
     
     /// Your email for support
     static let emailSupport = "rene.b.dena@gmail.com"

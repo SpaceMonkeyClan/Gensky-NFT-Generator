@@ -26,9 +26,6 @@ struct SettingsContentView: View {
                 ScrollView(.vertical, showsIndicators: false, content: {
                     Spacer(minLength: 10)
                     VStack {
-                        CustomHeader(title: "IN-APP PURCHASES")
-                        InAppPurchasesPromoBannerView
-                        InAppPurchasesView
                         CustomHeader(title: "TUTORIAL")
                         TutorialItemView
                         CustomHeader(title: "SPREAD THE WORD")
@@ -185,12 +182,14 @@ struct SettingsContentView: View {
     }
 }
 
+
 // MARK: - Preview UI
 struct SettingsContentView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsContentView().environmentObject(DataManager())
     }
 }
+
 
 // MARK: - Mail presenter for SwiftUI
 class EmailPresenter: NSObject, MFMailComposeViewControllerDelegate {
@@ -221,9 +220,9 @@ func RootViewController() -> UIViewController? {
 
 // MARK: - Present an alert from anywhere in the app
 func presentAlert(title: String, message: String, primaryAction: UIAlertAction,
-                  secondaryAction: UIAlertAction? = nil, autoDismiss: Bool = false) {
+                  secondaryAction: UIAlertAction? = nil, autoDismiss: Bool = true) {
     let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-    if autoDismiss == false {
+    if autoDismiss == true {
         alert.addAction(primaryAction)
         if let secondary = secondaryAction { alert.addAction(secondary) }
     }

@@ -81,12 +81,11 @@ extension UIAlertAction {
     static var cancel: UIAlertAction {
         UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
     }
-    
     static var ok: UIAlertAction {
         UIAlertAction(title: "OK", style: .cancel, handler: nil)
     }
 }
-
+ 
 var rootController: UIViewController? {
     var root = UIApplication.shared.windows.first?.rootViewController
     if let presenter = root?.presentedViewController { root = presenter }
@@ -95,7 +94,8 @@ var rootController: UIViewController? {
 
 // MARK: - Google AdMob Interstitial - Support class
 class Interstitial: NSObject, GADFullScreenContentDelegate {
-    @AppStorage("isPremiumUser") var isPremiumUser: Bool = false
+    @AppStorage("isPremiumUser") var isPremiumUser: Bool = true
+    //@AppStorage("isPremiumUser") var isPremiumUser: Bool = false
     private var interstitial: GADInterstitialAd?
     private var presentedCount: Int = 0
     

@@ -14,6 +14,7 @@ struct DashboardContentView: View {
     private let collectionsHeight: CGFloat = UIScreen.main.bounds.height/2
     private let headerHeight: CGFloat = 70
     
+    
     // MARK: - Main rendering function
     var body: some View {
         ZStack {

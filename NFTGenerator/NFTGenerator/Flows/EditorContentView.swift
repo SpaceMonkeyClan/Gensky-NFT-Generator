@@ -135,7 +135,8 @@ struct EditorContentView: View {
                     if manager.isPremiumUser {
                         manager.saveAllNFTCollectionItems()
                     } else {
-                        manager.fullScreenMode = .subscriptions
+                        manager.saveAllNFTCollectionItems()
+                        //manager.fullScreenMode = .subscriptions
                     }
                 } label: {
                     ZStack {
