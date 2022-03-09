@@ -1,9 +1,7 @@
 # NFT-Generator
 
-![](Images/1.jpg)
-![](Images/2.jpg) 
-![](Images/3.jpg)
-![](Images/4.jpg)
-![](Images/5.jpg)
-![](Images/6.jpg)
-![](Images/7.jpg)
+![](Images/1.png)
+![](Images/2.png) 
+![](Images/3.png)
+![](Images/4.png)
+![](Images/5.png)
